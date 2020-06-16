@@ -52,12 +52,12 @@ input[name=search] {
   background-color: #ddd;
   border: none;
   color: #555;
-  padding: 2px 2px;
+  padding: 2px 4px;
   text-align: center;
   text-decoration: none;
   margin: 4px 2px;
   cursor: pointer;
-  border-radius: 16px;
+  border-radius: 6px;
   float: left;
 }
 

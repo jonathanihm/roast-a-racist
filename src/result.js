@@ -1,6 +1,5 @@
 import React, { PureComponent } from "react";
 import PropTypes from "prop-types";
-import TextTruncate from 'react-text-truncate';
 
 export default class Result extends PureComponent {
   static propTypes = {
@@ -16,7 +15,7 @@ export default class Result extends PureComponent {
     return (
       <div className="result" onClick={this.onClickAction} >
         <span className="tag">{this.props.tag}</span>
-        <TextTruncate line={1} element="span" truncateText="..." text={this.props.text} />
+        {this.props.text.length > 70 ? this.props.text.substring(0, 70) + '...' : this.props.text }
         <span className="copy copy-to-clipboard" data-clipboard-text={this.props.text + '\n' + this.props.sources.join("\n")}><button onClick="event.stopPropagation()">Quick Copy</button></span>
       </div>
     );
