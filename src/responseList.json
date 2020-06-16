@@ -1,0 +1,30 @@
+[
+    {
+        "id": "1",
+        "name": "bob",
+        "text": "All lives matter is just a stupid argument to black lives matter.",
+        "tags": ["bob", "protest"],
+        "sources": []
+    },
+    {
+        "id": "2",
+        "name": "bob",
+        "text": "Black on black crime is a fucking myth you fucking idiot.  There are 1200 reasons why",
+        "tags": ["bob", "black-on-black"],
+        "sources": ["<a href='https://www.google.com'>https://www.google.com</a>", "<a href='https://www.google.com'>https://www.washingtonpost.com</a>"]
+    },
+    {
+        "id": "3",
+        "name": "bob",
+        "text": "Fucking moron, being shot in the back is not okay no matter what they had done previously.",
+        "tags": ["bob", "protest"],
+        "sources": []
+    },
+    {
+        "id": "4",
+        "name": "bob",
+        "text": "Police have a history of brutal arrests towards blacks for a long time",
+        "tags": ["bob", "protest"],
+        "sources": []
+    }
+]

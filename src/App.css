@@ -1,38 +1,78 @@
-.App {
+body {
+  margin: 0;
+}
+
+.header {
+  text-align: center;  
+}
+
+.footer {
   text-align: center;
+  margin-top: 40px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.github {
+  position: absolute;
+    right: 0;
+    top: 0;
+}
+.explain {
+  text-align: center;
+  padding: 0% 10%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.results {
+
+  width: 100%;
+  background-color: white;
+  position: absolute;
+  box-shadow: 0 3px 8px 0 rgba(0,0,0,0.2), 0 0 0 1px rgba(0,0,0,0.08);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.search-form {
+  width: 800px;
+  margin: auto;
+  position: relative;
+  padding: 0px 4px;
 }
 
-.App-link {
-  color: #61dafb;
+input[name=search] {
+  width: 100%;
+  padding: 4px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.result {
+  padding: 6px;
+}
+
+.result-text {
+  width: 80%;
+}
+.tag {
+  background-color: #ddd;
+  border: none;
+  color: #555;
+  padding: 2px 2px;
+  text-align: center;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+  float: left;
+}
+
+.pay-pill {
+  background-color: #77b;
+  border: none;
+  color: #fff;
+  padding: 10px 18px;
+  text-align: center;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.copy {
+  float: right;
 }
