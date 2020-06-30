@@ -30,7 +30,8 @@ body {
 }
 
 .search-form {
-  width: 800px;
+  width: 100%;
+  max-width: 800px;
   margin: auto;
   position: relative;
   padding: 0px 4px;
